@@ -7,10 +7,10 @@ first_name: Roberto
 middle_name:
 last_name: Ragno
 email: roberto.ragno@uniba.it
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. Ok test now
-footer_text: #
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+description: Roberto Ragno | Academic page
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+keywords: roberto-ragno, quantitative-archaeology, archaeology, environmental-archaeology, roman-archaeology, early-medieval, italy
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
