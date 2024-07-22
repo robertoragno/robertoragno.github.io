@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate in Archaeology at the University of Bari, Italy.
+subtitle: PhD in Archaeology at the University of Bari, Italy.
 
 profile:
   align: right
