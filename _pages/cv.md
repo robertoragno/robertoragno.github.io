@@ -24,9 +24,9 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 # Field experience
 
--   **2020** and **2021**. ArchaeoSipontum. Joint project: *University of Bari* and *University of Foggia*.
+-   **2021**, **2022**, and **2024**. ArchaeoSipontum. Joint project: *University of Bari* and *University of Foggia*.
 
-    -   In addition to excavation tasks, I contributed to students' supervision, activities of stratigraphic documentation, pottery classification, tutoring and the organization of post-excavation activities.
+    -   In addition to my responsibilities related to excavation tasks, I was involved in the supervision of students, the documentation of stratigraphic activities, the classification of pottery, the provision of tutoring, and the organisation of post-excavation activities. In 2024, I co-directed the *Northern Apulia Coastal Survey* in the vicinity of the site and curated the post-survey statistical analyses.
 
 -   **2019**. Biomolecular Archaeology Lab. *University College London*.
 
