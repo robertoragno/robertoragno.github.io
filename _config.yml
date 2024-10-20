@@ -8,7 +8,7 @@ middle_name:
 last_name: Ragno
 email: roberto.ragno@uniba.it
 description: Roberto Ragno | Archaeologist
-keywords: roberto-ragno, quantitative-archaeology, archaeology, environmental-archaeology, roman-archaeology, early-medieval, italy
+keywords: roberto-ragno, quantitative-archaeology, archaeology, environmental-archaeology, roman-archaeology, early-medieval, italy, bayesian-stats
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -62,7 +62,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: robertoragno # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: ragno_roberto # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -110,7 +110,7 @@ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: yP4aG3kgTD1NbpfM80FGW37F5Wk8VKJyxRYLJt6Oxek # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
