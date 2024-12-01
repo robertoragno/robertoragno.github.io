@@ -18,6 +18,10 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2018**. BA in Ancient History, *University of Bologna.*
 
+# Employment
+
+-   **Current**. Research Fellow in 'Historical landscapes, population dynamics and agrarian strategies in northern coastal Apulia between the Roman Age and the Middle Ages'. Funded by the 'CHANGES' PNRR partnership (Code: PE0000020 - CUP: B83D22001210006). *University of Bari 'Aldo Moro'.*
+
 # Research visits
 
 -   **2023**. McDonald Institute for Archaeological Research, *University of Cambridge.*
@@ -26,7 +30,7 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2021**, **2022**, and **2024**. ArchaeoSipontum. Joint project: *University of Bari* and *University of Foggia*.
 
-    -   In addition to my responsibilities related to excavation tasks, I was involved in the supervision of students, the documentation of stratigraphic activities, the classification of pottery, the provision of tutoring, and the organisation of post-excavation activities. In 2024, I co-directed the *Northern Apulia Coastal Survey* in the vicinity of the site and curated the post-survey statistical analyses.
+    -   In addition to my responsibilities related to excavation tasks, I was involved in the supervision of students, the documentation of stratigraphic activities, the classification of pottery, the provision of tutoring, and the organisation of post-excavation activities. In 2024, I coordinated the *Northern Apulia Coastal Survey* in the vicinity of the site and curated the post-survey statistical analyses.
 
 -   **2019**. Biomolecular Archaeology Lab. *University College London*.
 
