@@ -42,15 +42,23 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 # Conferences
 
--   **2025**. European Association of Archaeologists. *Session organiser*. *University of Belgrade, Belgrade, Serbia*.
+## Future events
 
--   **2025**. Patrimonio culturale al futuro: sostenibilità sociale, innovazione tecnologica, trasformazione digitale. *University of Roma Tre, Rome, Italy.*
+-   **2025**. *Session organiser*. 31st European Association of Archaeologists Annual Meeting. *University of Belgrade, Belgrade, Serbia*.
 
--   **2023**. Big Historical Data Conference. *Max Planck Institute of Geoanthropology, Jena, Germany.*
+-   **2025**. *Speaker*. 52nd Computational Archaeology Association International Conference. *University of West Attica, Athens, Greece.*
 
--   **2022**. International Landscape Archaeology Conference. *University of Iași, Romania.*
+-   **2025**. *Speaker*. Landscape 6: Emptyscapes, marginal landscapes, and revealed landscapes. *University of Siena, Siena, Italy.*
 
--   **2021**. AIAZ - 10th National Zooarchaeology Conference. *University of Siena.*
+-   **2025**. *Poster*. Patrimonio culturale al futuro: sostenibilità sociale, innovazione tecnologica, trasformazione digitale. *University of Roma Tre, Rome, Italy.*
+
+## Past events
+
+-   **2023**. *Speaker*. Big Historical Data Conference. *Max Planck Institute of Geoanthropology, Jena, Germany.*
+
+-   **2022**. *Speaker*.International Landscape Archaeology Conference. *University of Iași, Romania.*
+
+-   **2021**. *Speaker*. AIAZ - 10th National Zooarchaeology Conference. *University of Siena.*
 
 # Editorial work
 
