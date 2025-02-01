@@ -50,9 +50,10 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2025**. *Speaker*. Landscape 6: Emptyscapes, marginal landscapes, and revealed landscapes. *University of Siena, Siena, Italy.*
 
--   **2025**. *Poster*. Patrimonio culturale al futuro: sostenibilità sociale, innovazione tecnologica, trasformazione digitale. *University of Roma Tre, Rome, Italy.*
 
 ## Past events
+
+-   **2025**. *Poster*. Patrimonio culturale al futuro: sostenibilità sociale, innovazione tecnologica, trasformazione digitale. *University of Roma Tre, Rome, Italy.*
 
 -   **2023**. *Speaker*. Big Historical Data Conference. *Max Planck Institute of Geoanthropology, Jena, Germany.*
 
