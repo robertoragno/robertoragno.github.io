@@ -48,8 +48,6 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2025**. *Speaker*. 52nd Computational Archaeology Association International Conference. *University of West Attica, Athens, Greece.*
 
--   **2025**. *Speaker*. Landscape 6: Emptyscapes, marginal landscapes, and revealed landscapes. *University of Siena, Siena, Italy.*
-
 
 ## Past events
 
