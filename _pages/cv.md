@@ -51,6 +51,8 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 ## Past events
 
+-   **2025**. *Speaker*. Approaches to the Roman Environment. *American Academy in Rome, Rome, Italy.*
+
 -   **2025**. *Poster*. Patrimonio culturale al futuro: sostenibilità sociale, innovazione tecnologica, trasformazione digitale. *University of Roma Tre, Rome, Italy.*
 
 -   **2023**. *Speaker*. Big Historical Data Conference. *Max Planck Institute of Geoanthropology, Jena, Germany.*
