@@ -9,7 +9,7 @@ last_name: Ragno
 email: roberto.ragno@uniba.it
 description: Roberto Ragno | Archaeologist
 keywords: roberto-ragno, quantitative-archaeology, archaeology, environmental-archaeology, roman-archaeology, early-medieval, italy, bayesian-stats
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: en 
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://robertoragno.github.io # the base hostname & protocol for your site
