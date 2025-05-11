@@ -28,9 +28,9 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 # Field experience
 
--   **2021**, **2022**, and **2024**. ArchaeoSipontum. Joint project: *University of Bari* and *University of Foggia*.
+-   **2021**, **2022**, **2024**, and **2025**. ArchaeoSipontum. Joint project: *University of Bari* and *University of Foggia*.
 
-    -   In addition to my responsibilities related to excavation tasks, I was involved in the supervision of students, the documentation of stratigraphic activities, the classification of pottery, the provision of tutoring, and the organisation of post-excavation activities. In 2024, I coordinated the *Northern Apulia Coastal Survey* in the vicinity of the site and curated the post-survey statistical analyses.
+    -   In addition to my responsibilities related to excavation tasks, I was involved in the supervision of students, the documentation of stratigraphic activities, the classification of pottery, the provision of tutoring, and the organisation of post-excavation activities. In 2024 and 2025, I coordinated the *Northern Apulia Coastal Survey* in the vicinity of the site and curated the post-survey statistical analyses.
 
 -   **2019**. Biomolecular Archaeology Lab. *University College London*.
 
@@ -46,10 +46,9 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2025**. *Session organiser*. 31st European Association of Archaeologists Annual Meeting. *University of Belgrade, Belgrade, Serbia*.
 
--   **2025**. *Speaker*. 52nd Computational Archaeology Association International Conference. *University of West Attica, Athens, Greece.*
-
-
 ## Past events
+
+-   **2025**. *Speaker*. 52nd Computational Archaeology Association International Conference. *University of West Attica, Athens, Greece.*
 
 -   **2025**. *Speaker*. Approaches to the Roman Environment. *American Academy in Rome, Rome, Italy.*
 
