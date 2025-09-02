@@ -42,11 +42,7 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 # Conferences
 
-## Future events
-
 -   **2025**. *Session organiser*. 31st European Association of Archaeologists Annual Meeting. *University of Belgrade, Belgrade, Serbia*.
-
-## Past events
 
 -   **2025**. *Speaker*. 52nd Computational Archaeology Association International Conference. *University of West Attica, Athens, Greece.*
 
