@@ -45,15 +45,15 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 ## Future Conferences
 
--   **2026**. *Speaker*. Mappe e scenari per il futuro del patrimonio culturale. Tre anni di ricerche del Partenariato PNRR CHANGES. *Sapienza University of Rome, Italy.*
-
--   **2026**. *Invited Speaker*. Dialoghi sul Patrimonio. *University of Bari, Italy.*
-
 -   **2026**. *Speaker*. 53rd Computational Archaeology Association International Conference. *University of Vienna, Austria.*
 
 -   **2026**. *Session organiser*. 32nd European Association of Archaeologists Annual Meeting. *University of Athens, Greece*.
 
 ## Past Conferences
+
+-   **2026**. *Invited Speaker*. Dialoghi sul Patrimonio Culturale. Workshop finale Spoke 1 - CHANGES. *University of Bari, Italy.*
+
+-   **2026**. *Speaker*. Mappe e scenari per il futuro del patrimonio culturale. Tre anni di ricerche del Partenariato PNRR CHANGES. *Sapienza University of Rome, Italy.*
 
 -   **2025**. *Session organiser*. 31st European Association of Archaeologists Annual Meeting. *University of Belgrade, Belgrade, Serbia*.
 
