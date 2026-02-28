@@ -72,3 +72,4 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 # Editorial work
 
 -  *Journal of Cultural Heritage*. Peer-review.
+-  *Journal of Archaeological Science: Reports*. Peer-review.
