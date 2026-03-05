@@ -49,6 +49,8 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2026**. *Session organiser*. 32nd European Association of Archaeologists Annual Meeting. *University of Athens, Greece*.
 
+-   **2026**. *Roundtable organiser*. 32nd European Association of Archaeologists Annual Meeting. *University of Athens, Greece*.
+
 ## Past Conferences
 
 -   **2026**. *Invited Speaker*. Dialoghi sul Patrimonio Culturale. Workshop finale Spoke 1 - CHANGES. *University of Bari, Italy.*
