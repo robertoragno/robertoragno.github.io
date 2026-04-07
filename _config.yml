@@ -6,10 +6,10 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Roberto
 middle_name:
 last_name: Ragno
-email: roberto.ragno@uniba.it
+email: rr673@cam.ac.uk
 description: Roberto Ragno | Archaeologist
 keywords: roberto-ragno, quantitative-archaeology, archaeology, environmental-archaeology, roman-archaeology, early-medieval, italy, bayesian-stats
-lang: en 
+lang: en
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://robertoragno.github.io # the base hostname & protocol for your site
