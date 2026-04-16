@@ -23,6 +23,14 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2024-2025**. Research Fellow in 'Historical landscapes, population dynamics and agrarian strategies in northern coastal Apulia between the Roman Age and the Middle Ages'. Funded by the 'CHANGES' PNRR partnership (Code: PE0000020 - CUP: B83D22001210006). *University of Bari 'Aldo Moro', Italy.*
 
+# Research Projects
+
+-   **2026–2028**. Advancing Bayesian Methods for Typo-Chronologically Dated Archaeological Datasets ([BTChron](https://doi.org/10.3030/101201843)), Marie Skłodowska-Curie Actions Postdoctoral Fellowships (PDRA; Host supervisor: Enrico Crema), *University of Cambridge, United Kingdom.*
+ 
+-   **2025–2026**. “ArcheoClima. Archaeology of Climate Change in Southern Italy in Antiquity”, BAC PNRR project funded by “CHANGES – Cultural Heritage Active Innovation for Sustainable Society”, Code PE00000020 – CUP H53C22000860006 – Spoke 1 “Historical Landscapes, Traditions and Cultural Identities” (Researcher; PI: Roberto Goffredo). *University of Foggia, Italy*.
+
+-   **2024–ongoing**. “Northern Apulia Coastal Landscapes”, funded by “CHANGES – Cultural Heritage Active Innovation for Sustainable Society”, Code PE00000020 – CUP H53C22000860006 – Spoke 1 “Historical Landscapes, Traditions and Cultural Identities” (Researcher; PI: Roberto Goffredo). *University of Foggia and University of Bari, Italy*.
+
 # Research visits
 
 -   **2023**. McDonald Institute for Archaeological Research, *University of Cambridge, United Kingdom.*
