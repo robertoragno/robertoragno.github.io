@@ -59,8 +59,6 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 ## Past Conferences
 
--   **2026**. *Invited Speaker*. Seminari di topografia antica e archeologia dei paesaggi. *University of Naples Federico II, Italy*
-
 -   **2026**. *Speaker*. 53rd Computational Archaeology Association International Conference. *University of Vienna, Austria.*
 
 -   **2026**. *Invited Speaker*. Dialoghi sul Patrimonio Culturale. Workshop finale Spoke 1 - CHANGES. *University of Bari, Italy.*
@@ -77,7 +75,7 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2023**. *Speaker*. Big Historical Data Conference. *Max Planck Institute of Geoanthropology, Jena, Germany.*
 
--   **2022**. *Speaker*.International Landscape Archaeology Conference. *University of Iași, Romania.*
+-   **2022**. *Speaker*. International Landscape Archaeology Conference. *University of Iași, Romania.*
 
 -   **2021**. *Speaker*. AIAZ - 10th National Zooarchaeology Conference. *University of Siena, Italy.*
 
