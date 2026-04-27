@@ -59,6 +59,8 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 ## Past Conferences
 
+-   **2026**. *Invited Speaker*. Seminari di topografia antica e archeologia dei paesaggi. *University of Naples Federico II, Italy*
+
 -   **2026**. *Speaker*. 53rd Computational Archaeology Association International Conference. *University of Vienna, Austria.*
 
 -   **2026**. *Invited Speaker*. Dialoghi sul Patrimonio Culturale. Workshop finale Spoke 1 - CHANGES. *University of Bari, Italy.*
