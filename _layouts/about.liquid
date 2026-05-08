@@ -14,7 +14,7 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
+  <article id="main-content">
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -28,7 +28,7 @@ layout: default
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.alt
             cache_bust=true
           %}
         {% endif %}
@@ -58,9 +58,9 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h3>
+      <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
-      </h3>
+      </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 

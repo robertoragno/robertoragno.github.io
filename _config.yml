@@ -10,7 +10,7 @@ email: rr673@cam.ac.uk
 description: Roberto Ragno | Archaeologist
 keywords: roberto-ragno, quantitative-archaeology, archaeology, environmental-archaeology, roman-archaeology, early-medieval, italy, bayesian-stats
 lang: en
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://robertoragno.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -54,7 +54,7 @@ max_width: 800px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 

@@ -10,12 +10,12 @@
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
             include figure.liquid
-            loading="eager"
+            loading="lazy"
             path=entry_path
             sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=false
-            alt=entry.preview
+            alt=entry.title
           %}
         {% endif %}
       {% elsif entry.abbr %}
