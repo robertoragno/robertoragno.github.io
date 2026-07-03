@@ -1,0 +1,108 @@
+/*******************************************************************************
+ * Chronology field — generative home-page background (Option B, "barely there")
+ *
+ * A fixed, drifting ridgeline of probability-density curves behind the content,
+ * plus a fine paper grain over the whole surface. Only present on the home page,
+ * where the markup lives, so the rest of the site is untouched.
+ ******************************************************************************/
+
+// Let the fixed canvas show through: paper colour moves to <html>, body goes clear.
+html:has(#chronology-field) {
+  background-color: var(--global-bg-color);
+
+  body {
+    background-color: transparent;
+  }
+
+  // the chronology axis strip replaces the site footer on this page
+  footer {
+    display: none;
+  }
+}
+
+$chronology-axis-height: 2.6rem;
+
+// Pinned to the viewport floor, full-bleed, resting on the axis strip.
+// The markup lives inside the Bootstrap container, so only `fixed` escapes
+// its width; the scroll-linked fade/settle lives in chronology-field.js,
+// which drives canvas opacity.
+#chronology-field {
+  position: fixed;
+  bottom: $chronology-axis-height;
+  left: 0;
+  // canvas is a replaced element: without an explicit width it falls back to
+  // its intrinsic buffer size instead of stretching between left/right
+  width: 100%;
+  height: min(52vh, 460px);
+  z-index: -2;
+  display: block;
+  pointer-events: none; // cursor reactivity is tracked on window; never blocks clicks
+  will-change: opacity;
+}
+
+// The footer as figure axis: opaque strip so content scrolls behind it, the
+// top border is the axis line the curve rests on, drawn in text ink like a
+// published plot. No labels; ruler hierarchy of minor and major ticks. The
+// tick rows keep a clamp inset so the axis has visible ends like a plotted
+// figure rather than running edge-to-edge like a border.
+#chronology-axis {
+  position: fixed;
+  inset: auto 0 0 0;
+  height: $chronology-axis-height;
+  z-index: 1030; // same layer Bootstrap uses for .fixed-bottom
+  background: var(--global-bg-color);
+  border-top: 1px solid color-mix(in srgb, var(--global-text-color) 70%, transparent);
+  pointer-events: none;
+
+  // minor ticks hanging from the axis line, one every 1/24 of the strip
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: clamp(1.5rem, 6vw, 5rem);
+    right: clamp(1.5rem, 6vw, 5rem);
+    height: 0.35rem;
+    background-image: repeating-linear-gradient(
+      to right,
+      var(--global-text-color) 0,
+      var(--global-text-color) 1px,
+      transparent 1px,
+      transparent calc(100% / 24)
+    );
+    opacity: 0.45;
+  }
+
+  // major ticks every 4th minor (1/6 of the strip), longer and darker
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: clamp(1.5rem, 6vw, 5rem);
+    right: clamp(1.5rem, 6vw, 5rem);
+    height: 0.7rem;
+    background-image: repeating-linear-gradient(
+      to right,
+      var(--global-text-color) 0,
+      var(--global-text-color) 1px,
+      transparent 1px,
+      transparent calc(100% / 6)
+    );
+    opacity: 0.7;
+  }
+}
+
+#chronology-grain {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+// On dark backgrounds a multiply grain vanishes; screen keeps a faint tooth.
+html[data-theme='dark'] #chronology-grain {
+  mix-blend-mode: screen;
+  opacity: 0.05;
+}

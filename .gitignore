@@ -9,3 +9,9 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+# Claude / AI-agent context (local only)
+.claude/
+CLAUDE.md
+PRODUCT.md
+DESIGN.md
+_chronology-demo.html
