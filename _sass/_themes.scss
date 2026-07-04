@@ -1,35 +1,53 @@
 /*******************************************************************************
- * Themes
+ * Themes — "Ink & oxide"
+ *
+ * One identity, two lights. A single accent, oxide-red, runs through BOTH
+ * modes; it never reverts to the al-folio stock cyan. Every neutral is tinted
+ * toward the warm oxide hue (~22°) rather than a dead grey — paper and iron-ink
+ * in light, warm umber and bone in dark. No pure #000 / #fff anywhere.
+ *
+ * Values are OKLCH-reasoned but written as 6-digit hex on purpose:
+ * chronology-field.js reads --global-theme-color with a strict hex regex, so
+ * the accent (and, for consistency, the rest) stays hex.
+ *
+ *   accent   oxide-red   #C13A26 light · #E0503A dark
+ *   paper    #FBF7F5     ink   #211815
+ *   umber    #1A1614     bone  #E7DED8
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #fdf9f8;
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #1e1412;
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #DC3522;
-  --global-hover-color: #DC3522;
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #fefaf9;
-  --global-blockquote-bg: #faf0ec;
+  --global-bg-color: #fbf7f5; // warm paper
+  --global-code-bg-color: #f4ece8; // warm, replaces the stock purple tint
+  --global-text-color: #211815; // iron-ink
+  --global-text-color-light: #6e625c; // warm secondary grey
+  --global-theme-color: #c13a26; // oxide-red — the one accent
+  --global-hover-color: #a82f1e; // deeper oxide for hover feedback
+  --global-hover-text-color: #fbf7f5;
+  // footer echoes the chronology-axis strip: paper ground, ink hairline, oxide links
+  --global-footer-bg-color: #fbf7f5;
+  --global-footer-text-color: #6e625c;
+  --global-footer-link-color: #c13a26;
+  --global-distill-app-color: #6e625c;
+  --global-divider-color: rgba(45, 30, 25, 0.1); // warm hairline
+  --global-card-bg-color: #fffbf9;
+  --global-blockquote-bg: #f5ebe6;
+  // graph-paper ruling behind the whole site — the page as a plotted figure
+  --global-graph-line: rgba(35, 24, 20, 0.035); // minor, ink
+  --global-graph-line-major: rgba(35, 24, 20, 0.06); // every 5th line
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  // callouts, warmed into the palette (no bright teal, no cool blue)
+  --global-tip-block: #6f9a86; // muted sage
+  --global-tip-block-bg: #eaf1ec;
+  --global-tip-block-text: #33564a;
+  --global-tip-block-title: #4c7c67;
+  --global-warning-block: #c9971e; // ochre
+  --global-warning-block-bg: #f7edda;
+  --global-warning-block-text: #6b5119;
+  --global-warning-block-title: #a97c17;
+  --global-danger-block: #c13a26; // oxide family
+  --global-danger-block-bg: #f7e4df;
+  --global-danger-block-text: #7a2417;
+  --global-danger-block-title: #c13a26;
 
   .fa-sun {
     display: none;
@@ -49,33 +67,41 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #1d1a19;
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-blockquote-bg: #2a1915;
+  --global-bg-color: #1a1614; // warm umber-black
+  --global-code-bg-color: #221c18; // warm, replaces the cool #2c3237
+  --global-text-color: #e7ded8; // warm bone
+  --global-text-color-light: #a99e96; // warm secondary grey
+  --global-theme-color: #e0503a; // same oxide, lifted for the dark ground
+  --global-hover-color: #ec6247;
+  // NOT paper: light text on the oxide fill (theme-color/hover-color as bg,
+  // e.g. active badges, TOC/dropdown active states) measures 3.08-3.67:1 in
+  // dark mode, below WCAG AA's 4.5:1. Dark text on the same fills measures
+  // 4.60-5.48:1. Umber (the page ground) reads as an inverted cutout.
+  --global-hover-text-color: #1a1614;
+  // footer echoes the chronology-axis strip: umber ground, bone hairline, oxide links
+  --global-footer-bg-color: #1a1614;
+  --global-footer-text-color: #a99e96;
+  --global-footer-link-color: #e0503a;
+  --global-distill-app-color: #a99e96;
+  --global-divider-color: rgba(231, 222, 216, 0.12); // warm hairline
+  --global-card-bg-color: #221c19; // warm lift, replaces the cool grey-900
+  --global-blockquote-bg: #241a16;
+  // graph-paper ruling behind the whole site — the page as a plotted figure
+  --global-graph-line: rgba(231, 222, 216, 0.05); // minor, bone
+  --global-graph-line-major: rgba(231, 222, 216, 0.08); // every 5th line
 
-  --global-tip-block: #5bc491;
-  --global-tip-block-bg: #0e2218;
-  --global-tip-block-text: #7ed4a8;
-  --global-tip-block-title: #5bc491;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #261c00;
-  --global-warning-block-text: #d4b05a;
-  --global-warning-block-title: #c4a000;
-  --global-danger-block: #e06060;
-  --global-danger-block-bg: #280808;
-  --global-danger-block-text: #e08080;
-  --global-danger-block-title: #d04040;
+  --global-tip-block: #7fae98;
+  --global-tip-block-bg: #16241e;
+  --global-tip-block-text: #a7cbb9;
+  --global-tip-block-title: #7fae98;
+  --global-warning-block: #d4a53f;
+  --global-warning-block-bg: #241c0e;
+  --global-warning-block-text: #d8b878;
+  --global-warning-block-title: #c4972a;
+  --global-danger-block: #e0503a;
+  --global-danger-block-bg: #2a1512;
+  --global-danger-block-text: #ec8a76;
+  --global-danger-block-title: #e0503a;
 
   .fa-sun {
     padding-left: 10px;

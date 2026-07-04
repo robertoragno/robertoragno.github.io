@@ -49,7 +49,10 @@ d-article {
     display: inline;
   }
   blockquote {
-    border-left: 2px solid var(--global-theme-color) !important;
+    // matches the main blockquote treatment in _base.scss — background tint,
+    // not a colored border-left
+    background: var(--global-blockquote-bg) !important;
+    border-radius: 4px;
   }
 
   // Style taken from code blocks
@@ -108,7 +111,7 @@ d-article {
         display: block;
         outline: none;
         margin-bottom: 0.8em;
-        color: rgba(0, 0, 0, 0.8);
+        color: var(--global-text-color);
         font-weight: bold;
       }
       ul {

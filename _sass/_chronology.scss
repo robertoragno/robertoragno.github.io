@@ -12,11 +12,15 @@ html:has(#chronology-field) {
 
   body {
     background-color: transparent;
-  }
-
-  // the chronology axis strip replaces the site footer on this page
-  footer {
-    display: none;
+    // Faint graph-paper lattice, home-only: the sparse intro content gives it
+    // room to breathe and sets the "plotted figure" scene. Major line every
+    // 5th. Fixed like real paper: the figure scrolls, the ruling stays put.
+    background-image:
+      repeating-linear-gradient(to right, var(--global-graph-line-major) 0 1px, transparent 1px $grid-major),
+      repeating-linear-gradient(to bottom, var(--global-graph-line-major) 0 1px, transparent 1px $grid-major),
+      repeating-linear-gradient(to right, var(--global-graph-line) 0 1px, transparent 1px $grid-cell),
+      repeating-linear-gradient(to bottom, var(--global-graph-line) 0 1px, transparent 1px $grid-cell);
+    background-attachment: fixed;
   }
 }
 
@@ -42,9 +46,17 @@ $chronology-axis-height: 2.6rem;
 
 // The footer as figure axis: opaque strip so content scrolls behind it, the
 // top border is the axis line the curve rests on, drawn in text ink like a
-// published plot. No labels; ruler hierarchy of minor and major ticks. The
-// tick rows keep a clamp inset so the axis has visible ends like a plotted
-// figure rather than running edge-to-edge like a border.
+// published plot. No labels; ruler hierarchy of minor and major ticks.
+//
+// The ticks are drawn full-bleed with the SAME period and viewport origin as
+// the graph-paper grid ($grid-cell / $grid-major), so every tick lands exactly
+// on one of the paper's vertical lines, the way a real plot's ticks sit on the
+// ruling. A mask then fades the outer margins so the axis still reads as a
+// figure with visible ends rather than a border running edge-to-edge, without
+// disturbing the grid alignment (the gradient phase is untouched, only painted
+// pixels are hidden).
+$axis-end-inset: clamp(1.5rem, 6vw, 5rem);
+
 #chronology-axis {
   position: fixed;
   inset: auto 0 0 0;
@@ -54,38 +66,70 @@ $chronology-axis-height: 2.6rem;
   border-top: 1px solid color-mix(in srgb, var(--global-text-color) 70%, transparent);
   pointer-events: none;
 
-  // minor ticks hanging from the axis line, one every 1/24 of the strip
+  // minor ticks, one on every vertical grid line
   &::before {
     content: '';
     position: absolute;
     top: 0;
-    left: clamp(1.5rem, 6vw, 5rem);
-    right: clamp(1.5rem, 6vw, 5rem);
+    left: 0;
+    right: 0;
     height: 0.35rem;
     background-image: repeating-linear-gradient(
       to right,
       var(--global-text-color) 0,
       var(--global-text-color) 1px,
       transparent 1px,
-      transparent calc(100% / 24)
+      transparent $grid-cell
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      transparent #{$axis-end-inset},
+      #000 #{$axis-end-inset},
+      #000 calc(100% - #{$axis-end-inset}),
+      transparent calc(100% - #{$axis-end-inset})
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      transparent #{$axis-end-inset},
+      #000 #{$axis-end-inset},
+      #000 calc(100% - #{$axis-end-inset}),
+      transparent calc(100% - #{$axis-end-inset})
     );
     opacity: 0.45;
   }
 
-  // major ticks every 4th minor (1/6 of the strip), longer and darker
+  // major ticks, one on every major grid line, longer and darker
   &::after {
     content: '';
     position: absolute;
     top: 0;
-    left: clamp(1.5rem, 6vw, 5rem);
-    right: clamp(1.5rem, 6vw, 5rem);
+    left: 0;
+    right: 0;
     height: 0.7rem;
     background-image: repeating-linear-gradient(
       to right,
       var(--global-text-color) 0,
       var(--global-text-color) 1px,
       transparent 1px,
-      transparent calc(100% / 6)
+      transparent $grid-major
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      transparent #{$axis-end-inset},
+      #000 #{$axis-end-inset},
+      #000 calc(100% - #{$axis-end-inset}),
+      transparent calc(100% - #{$axis-end-inset})
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      transparent #{$axis-end-inset},
+      #000 #{$axis-end-inset},
+      #000 calc(100% - #{$axis-end-inset}),
+      transparent calc(100% - #{$axis-end-inset})
     );
     opacity: 0.7;
   }

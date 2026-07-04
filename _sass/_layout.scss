@@ -6,6 +6,10 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  // Graph-paper lattice lives only on the home page — see the
+  // html:has(#chronology-field) body rule in _chronology.scss. It sets the
+  // scene where content is sparse; on dense text/list pages (CV,
+  // publications, projects) it competed with reading, so this stays plain.
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.7;
 

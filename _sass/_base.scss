@@ -366,7 +366,7 @@ ul.task-list input[type="checkbox"] {
     background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
-    transition: all 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
   }
 
   .top-bar {
@@ -469,6 +469,8 @@ ul.task-list input[type="checkbox"] {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
+  // same ink hairline the chronology axis rests on, so every page bottom matches
+  border-top: 1px solid color-mix(in srgb, var(--global-text-color) 70%, transparent);
   font-size: 0.75rem;
 
   .container {
@@ -482,7 +484,7 @@ footer.fixed-bottom {
     color: var(--global-footer-link-color);
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -678,7 +680,9 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    // same fix as h2.bibliography: --global-divider-color (~10% ink) is a
+    // border tint, not readable body text, especially over the graph paper.
+    color: var(--global-text-color-light);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
@@ -709,7 +713,10 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    // was --global-divider-color (~10% ink): near-invisible, and unreadable
+    // once the graph-paper ruling sits behind it. Use the readable warm
+    // secondary ink; the faint top rule still marks the section.
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;

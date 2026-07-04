@@ -30,6 +30,14 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Graph-paper / plot ruling. One lattice, shared by the background grid
+// (_layout.scss) and the chronology axis ticks (_chronology.scss), so the
+// axis ticks land exactly on the paper's vertical lines. Both are anchored to
+// the viewport origin (background is fixed; the axis is position:fixed), so a
+// shared period is enough to keep them in phase.
+$grid-cell: 22px; // minor line spacing
+$grid-major: 110px; // major line, every 5th ($grid-cell * 5)
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);
