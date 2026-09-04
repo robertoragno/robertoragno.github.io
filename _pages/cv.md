@@ -19,6 +19,8 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 -   **2018**. BA in Ancient History, *University of Bologna, Italy.*
 
 # Employment
+-  **Current** College Research Associate. St John's College, *University of Cambridge, United Kingdom*.
+
 -   **Current**. Research Fellow (Marie Skłodowska-Curie Actions Postdoctoral Fellowships, [BTChron](https://doi.org/10.3030/101201843) Project), *University of Cambridge, United Kingdom.*
 
 -   **2024-2025**. Research Fellow in 'Historical landscapes, population dynamics and agrarian strategies in northern coastal Apulia between the Roman Age and the Middle Ages'. Funded by the 'CHANGES' PNRR partnership (Code: PE0000020 - CUP: B83D22001210006). *University of Bari 'Aldo Moro', Italy.*
