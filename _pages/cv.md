@@ -19,6 +19,7 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 -   **2018**. BA in Ancient History, *University of Bologna, Italy.*
 
 # Employment
+
 -  **Current** College Research Associate. St John's College, *University of Cambridge, United Kingdom*.
 
 -   **Current**. Research Fellow (Marie Skłodowska-Curie Actions Postdoctoral Fellowships, [BTChron](https://doi.org/10.3030/101201843) Project), *University of Cambridge, United Kingdom.*
@@ -52,6 +53,7 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 -   **2017**. Programma Vesuviana. *University of Bologna.*
 
 # Conferences and Talks
+
 -   **2026**. *Speaker*. ArcheoFOSS 2026 - International Conference on Open Software, Hardware, Processes, Data and Formats in Archaeological Research. *University of Bologna, Italy.*
 
 -   **2026**. *Speaker*. 32nd European Association of Archaeologists Annual Meeting. *University of Athens, Greece*.
