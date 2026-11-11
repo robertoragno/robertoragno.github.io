@@ -52,6 +52,7 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 -   **2017**. Programma Vesuviana. *University of Bologna.*
 
 # Conferences and Talks
+-   **2026**. *Speaker*. ArcheoFOSS 2026 - International Conference on Open Software, Hardware, Processes, Data and Formats in Archaeological Research. *University of Bologna, Italy.*
 
 -   **2026**. *Speaker*. 32nd European Association of Archaeologists Annual Meeting. *University of Athens, Greece*.
 
@@ -59,7 +60,7 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2026**. *Roundtable organiser*. 32nd European Association of Archaeologists Annual Meeting. *University of Athens, Greece*.
 
--   **2026**. *Speaker*. 53rd Computational Archaeology Association International Conference. *University of Vienna, Austria.*
+-   **2026**. *Speaker*. 53rd Computer Applications and Quantitative Methods in Archaeology International Conference. *University of Vienna, Austria.*
 
 -   **2026**. *Invited Speaker*. Dialoghi sul Patrimonio Culturale. Workshop finale Spoke 1 - CHANGES. *University of Bari, Italy.*
 
@@ -67,7 +68,7 @@ A more detailed PDF version of this cv can be downloaded [here](../assets/pdf/Ac
 
 -   **2025**. *Session organiser*. 31st European Association of Archaeologists Annual Meeting. *University of Belgrade, Belgrade, Serbia*.
 
--   **2025**. *Speaker*. 52nd Computational Archaeology Association International Conference. *University of West Attica, Athens, Greece.*
+-   **2025**. *Speaker*. 52nd Computer Applications and Quantitative Methods in Archaeology International Conference. *University of West Attica, Athens, Greece.*
 
 -   **2025**. *Invited Speaker*. Approaches to the Roman Environment. *American Academy in Rome, Italy.*
 
